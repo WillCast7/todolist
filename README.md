@@ -11,13 +11,19 @@ This is a basic Todo List API built for a challenge using ASP.NET Core.
    ```bash
    dotnet restore
    ```
+3.Configure the database connection:
 
-3. Apply the migrations:
+   Open the appsettings.json file and update the ConnectionStrings section with your database connection details. Example:
+   ```csharp
+   { "ConnectionStrings": { "DefaultConnection": "Server=localhost;Database=TodoListDb;User Id=myuser;Password=mypassword;" } }
+   ```
+
+4. Apply the migrations:
    ```bash
    dotnet ef database update
    ```
 
-4. Run the api:
+5. Run the api:
    ```bash
    dotnet run
    ```
