@@ -13,7 +13,7 @@ This is a basic Todo List API built for a challenge using ASP.NET Core.
    ```
 3.Configure the database connection:
 
-   Open the appsettings.json file and update the ConnectionStrings section with your database connection details. Example:
+   Open the appsettings.json file and update the ConnectionStrings replace "you_database_here" with your database name:
    ```csharp
       "ConnectionStrings": {
         "Connection": "Server=.\\SQLEXPRESS;you_database_here=TodoList;Trusted_Connection=true;TrustServerCertificate=true;"
