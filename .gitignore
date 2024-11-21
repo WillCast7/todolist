@@ -1,0 +1,61 @@
+# Archivos de configuración de Visual Studio
+.vs/
+.vscode/
+
+# Archivos de build
+bin/
+obj/
+[Bb]uild/
+[Bb]uilds/
+
+# Archivos de usuario de Visual Studio
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Archivos de depuración, publicación y configuración
+*.log
+*.pdb
+*.mdb
+*.opendb
+*.pidb
+*.Publish.xml
+
+# Archivos de paquetes NuGet
+*.nupkg
+*.snupkg
+*.symbols.nupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+packages/
+.nuget/
+
+# Archivos de configuración y dependencias
+*.config
+*.json
+*.cache
+*.idea/
+.idea/
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos de archivos temporales
+*.tmp
+*.temp
+*.swp
+*.bak
+~*
+
+# Archivos generados por ASP.NET
+appsettings.*.json
+logs/
+secrets/
+
